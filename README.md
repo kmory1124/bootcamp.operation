@@ -3,8 +3,22 @@ services operation
 
 microservicio para controlar las operaciones que realizan los clientes:
 
-debe permitir relizar pago de productos,
-consulta de productos (saldos etc)
+http://localhost:8099/Operation/ListAll (lista todas las operaciones)
+
+http://localhost:8099/Operation/getByOperationNumber/1 (lista operaciones por codigo operacion)
+
+http://localhost:8099/Operation/registerOperation (registra operacion)
 
 
-porcentaje de avance: 10% se realizo solo la estructura del proyecto por falta de tiempo. 
+{    
+"documentNumber": "47304033",
+"operationNumber": "1",
+"numberAccountOrigin": "1111",
+"numberAccountDestination": "1234",
+"operationType": "Pay",
+"amount": "200",
+"createDate": "22/03/2023",
+"modifyDate": "22/03/2023"
+}
+
+porcentaje de avance: 65% 
