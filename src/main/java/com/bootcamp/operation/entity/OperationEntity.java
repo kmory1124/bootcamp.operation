@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 //anotacion para ahorrar codigo de constructor sin parametros
 @NoArgsConstructor
-//anotacion que indica que se utilizará para mapear a la collection "Client" de la bd mongo
+//anotacion que indica que se utilizará para mapear a la collection "Operation" de la bd mongo
 @Document(collection = "Operation")
 public class OperationEntity {
     @Id
